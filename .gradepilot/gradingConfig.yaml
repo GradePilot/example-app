@@ -1,0 +1,12 @@
+repo: https://github.com/GradePilot/example-app
+docker_image: 3.9.9-amazoncorretto-11-alpine
+due_date: '2025-03-12T00:00:00.000Z'
+late_submission_policy: false
+close_date: null
+test:
+  totalGrade: 100
+  test_command: mvn test
+  questions:
+    - command: mvn test -Dgroups=src/test/java/org/example/AppTest#testAdd
+      grade: 100
+  call_back: /graded/pyF2jyzQc5dsAVJFtCwSgUJFrG72
