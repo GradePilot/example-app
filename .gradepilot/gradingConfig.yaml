@@ -7,6 +7,6 @@ test:
   totalGrade: 100
   test_command: mvn test
   questions:
-    - command: mvn test -Dgroups=src/test/java/org/example/AppTest#testAdd
+    - command: mvn test "-Dtest=org.example.AppTest#testAdd"
       grade: 100
   call_back: /graded/pyF2jyzQc5dsAVJFtCwSgUJFrG72
